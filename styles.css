@@ -1,0 +1,98 @@
+/*CONFIGURACION DEL ENCABEZADO*/
+
+/* Establece una imagen de fondo para el encabezado */
+#mi-encabezado {
+    background-image: url('img/Cuidad.jpg'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la ubicación de tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el encabezado */
+    height: 35rem; /* Altura del encabezado (ajusta según tus necesidades) */
+    
+    color: #ffffff; /* Color del texto en el encabezado para asegurar la legibilidad */
+    text-orientation: upright;
+    text-align: center; /* Alinea el contenido al centro del encabezado */
+    padding: 20px; /* Espacio de relleno interno para el contenido */
+    
+}
+
+/* Estilos adicionales para el Título en el encabezado */
+#mi-encabezado h1 {
+    font-size: 45px; /* Tamaño de fuente del título */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos adicionales para el texto en el encabezado */
+#mi-encabezado p {
+    font-size: 25px; /* Tamaño de fuente del texto del encabezado */
+}
+
+
+/*CONFIGURACION DEL MENU*/
+
+/* Establece el fondo transparente para el menú */
+nav {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    position: fixed; /* Posiciona el menú en la parte superior de la página */
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: background-color 0.5s; /* Transición suave para el cambio de color de fondo */
+
+}
+
+/* Estilos para los elementos menu*/
+ul {
+    list-style-type: none;
+    text-align: right;
+    margin-right: 3rem;
+}
+
+/*elementos de la lista del menu*/
+li {
+    display: inline;
+    margin-right: 30px; /* Espacio entre elementos del menú */
+}
+
+a {
+    text-decoration: none;
+    color: #fffdfd; /* Color del texto del menú */
+    font-weight: bold;
+}
+
+/* Cambia el color del enlace cuando se pasa el mouse por encima */
+a:hover {
+    color: #ff9900; /* Cambia el color al pasar el mouse por encima */
+}
+
+
+
+/*CONFIGURACION DEL BODY*/
+body {
+    /*configura los margenes de la página*/
+    margin-top: 0px; /* Ajusta según la altura del menú */
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*CONFIGURACION DEL CONTENIDO*/
+.contenido {
+    /* configura el color, tamaño de fuente y alineación del texto en el cuerpo de la página */
+    color: #000000;
+    font-size: 20px;
+    padding: 5%;
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.footer {
+    background-color: rgb(5,43,150); /* Cambia el color de fondo a azul */
+    padding: 10rem;
+    color: #fffdfd;
+    color: #ffffff; /* Color del texto en el encabezado para asegurar la legibilidad */
+    text-align: center; /* Alinea el contenido al centro del encabezado */
+   /* Espacio de relleno interno para el contenido */
+
+}

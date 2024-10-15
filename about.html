@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--invoca al archivo style.css que contiene todas las configuraciones de estilos de la página-->
+<link rel="stylesheet" href="styles.css">
+ 
+<!--Encabezado, el valor atributo id invoca a una funcion del archivo style.css para dar el formato del menu-->
+<header id="mi-encabezado"></header>
+
+<title>CURSO HTML</title>
+ <!--create a navigation bar-->
+ <!--Creacion del menú utilizando nav-->
+<nav>    
+<ul>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="about.html">Acerca de </a></li>
+<li><a href="contact.html">Contacto</a></li>
+</ul>
+</nav>
+
+<!--Texto del encabezado-->
+    <h1>Curso de HTML</h1>
+    <p>Acerca de</p>
+
+</header>
+
+<!--Cuerpo del HTML. Las configuraciones de estilos se encuentran en el archivo style.css-->
+<body>
+
+    <main>
+
+        <!--*CONFIGURACION DEL TEXTO EN EL CUERPO. El tamño y tipo de letra estan especificados en el archivo style.css*-->
+        <section class="contenido">
+            <h2> Acerca de...
+            <tr><td> <hr>
+                </hr></h2>
+                <p>
+                Aquí te proporciono las etiquetas básicas que necesitas para crear un archivo HTML llamado 
+                "index.html" y una breve explicación de su importancia:</p>
+                <p>
+                1. < !DOCTYPE html>: Esta declaración define la versión de HTML que estás utilizando, en este 
+                caso, HTML5. Es importante incluir esta línea al principio del documento para que los navegadores 
+                sepan cómo interpretar el código HTML.</p>
+                <p>
+                2.< html>: La etiqueta < html> es el elemento raíz de tu documento HTML. Todo el contenido
+                de tu página web debe estar contenido dentro de esta etiqueta.</p>
+                <p>
+                3. < head>: La sección < head> contiene información sobre el documento, como el título de la página, 
+                la codificación de caracteres y las referencias a archivos CSS y JavaScript. Es importante para la 
+                optimización de motores de búsqueda (SEO) y para configurar la apariencia y comportamiento de tu página.</p>
+                <p>
+                4. < meta charset="UTF-8">: Esta etiqueta se utiliza para especificar la codificación de caracteres 
+                del documento. El valor "UTF-8" es ampliamente utilizado y es compatible con la mayoría de los 
+                caracteres en diferentes idiomas.</p>
+                <p>
+                5. < meta name="viewport" content="width=device-width, initial-scale=1.0">: Esta etiqueta configura 
+                la escala inicial y el ancho de la pantalla para dispositivos móviles, lo que ayuda a que tu página
+                 web sea responsive y se adapte a diferentes tamaños de pantalla.</p>
+                <p>  
+                6. < title>: La etiqueta < title> define el título de tu página web, que se mostrará en la pestaña 
+                del navegador. Este título es importante para la identificación y la organización de tus páginas en 
+                los resultados de búsqueda y la experiencia del usuario.</p>
+                <p>
+                7. < body>: La etiqueta < body> contiene todo el contenido visible de tu página web, como texto, 
+                imágenes, enlaces y más. Aquí es donde creas la estructura y el diseño de tu página.</p>
+                 <p>
+                8. Otras etiquetas como < header>, < nav>, < section>, < footer>: Estas etiquetas se utilizan para
+                estructurar el contenido de tu página en secciones lógicas. El uso de etiquetas semánticas como 
+                estas mejora la accesibilidad y el SEO de tu sitio web.</p>
+                 <p>      
+                9. < a>: La etiqueta < a> se usa para crear enlaces a otras páginas web o recursos. Puedes usarla 
+                para vincular a otras páginas dentro de tu sitio o a sitios externos.</p>
+                <p>       
+                10. < p>, < h1>, < h2>, etc.: Estas etiquetas se utilizan para agregar texto y encabezados a tu página. 
+                Los encabezados se organizan en niveles, donde < h1> es el encabezado principal y < h2>, < h3>, etc.,
+                son encabezados secundarios.
+                </p>
+                <p>
+                11. Comentarios: Puedes agregar comentarios en tu código HTML utilizando < !-- ... -->. Los comentarios 
+                son útiles para documentar tu código y explicar su funcionalidad.</p>
+                <p>
+                La importancia de crear un archivo "index.html" correctamente estructurado y con etiquetas adecuadas
+                radica en que facilita la comprensión del contenido por parte de los navegadores web y los motores 
+                de búsqueda, mejora la accesibilidad para personas con discapacidades y permite una mejor organización
+                y mantenimiento de tu sitio web. Además, un buen uso de etiquetas semánticas y atributos meta puede 
+                mejorar la visibilidad de tu página en los resultados de búsqueda, lo que es crucial para la presencia 
+                en línea de tu sitio.</p>
+                            
+                </td></tr>
+            
+        </section>
+    </main>
+
+    <!--Pie de pagina-->
+    <!--el atributo Class="footer" invoca a una funcion del archivo style.css para dar el formato del pie de pagina-->
+    <div class="footer">Derechos reservados © 2023 Raquel Medrano</div>
+    
+    <!--Invoca al archivo script.js que contiene la funcion que controla el comportamiento del menu-->
+    <script src="script.js"></script>
+</body>
+</html>
